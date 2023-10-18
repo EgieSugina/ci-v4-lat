@@ -1,0 +1,40 @@
+CRITICAL - 2023-10-12 09:56:33 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App/Controllers\Home::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App/Controllers\\Home::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci.v4.lat1\\public\\index.php')
+CRITICAL - 2023-10-12 10:04:43 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('latihanci4_egie_sugina1')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('latihanci4_egie_sugina1')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci.v4.lat1\\public\\index.php')
+CRITICAL - 2023-10-12 10:12:14 --> App\Controllers\Latihan::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Latihan.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Latihan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci.v4.lat1\\public\\index.php')
+CRITICAL - 2023-10-12 10:41:56 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci.v4.lat1\\public\\index.php')
+CRITICAL - 2023-10-12 10:41:59 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci.v4.lat1\\public\\index.php')
