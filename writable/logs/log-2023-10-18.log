@@ -1,0 +1,86 @@
+CRITICAL - 2023-10-18 13:06:52 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:07:20 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:07:42 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:09:21 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:09:25 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:10:07 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:12:51 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:12:52 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:14:11 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:14:34 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Latihan.php')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Latihan.php')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 13:15:07 --> Call to a member function getRoute() on null
+in SYSTEMPATH\Router\Router.php on line 512.
+ 1 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Home')
+ 2 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Home')
+ 3 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 15:27:48 --> Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\Latihan.php(22): view('header')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Latihan->tampil_view()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
