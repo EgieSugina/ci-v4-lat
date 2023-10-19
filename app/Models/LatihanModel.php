@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Codeigniter\Model;
+use CodeIgniter\Model;
 
 class LatihanModel extends Model
 {

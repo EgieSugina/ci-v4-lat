@@ -2,34 +2,44 @@
 
 namespace App\Controllers;
 
+use App\Models\LatihanModel;
+
 class Latihan extends BaseController
 {
-    public function index()
+    protected $latihanmodel;
+    public function __construct()
     {
-        // return view('home');
-        echo 'Saat ini kita sedang berada pada Controller Latihan';
+        $this->latihanmodel = new LatihanModel();
     }
-    public function codeigniter()
-    {
-        echo 'Saat ini  kita sedang berada pada Controller Latihan dan function codeigniter';
-    }
+    // public function index()
+    // {
+    //     // return view('home');
+    //     echo 'Saat ini kita sedang berada pada Controller Latihan';
+    // }
+    // public function codeigniter()
+    // {
+    //     echo 'Saat ini  kita sedang berada pada Controller Latihan dan function codeigniter';
+    // }
     public function menampilkan_view()
     {
-        return view('halaman_latihan');
+        echo "Daftar Mahasiswa";
+        echo "<br><br>";
+        $data['mahasiswa'] = $this->latihanmodel->findAll();
+        return view('halaman_view', $data);
     }
-    public function tampil_view()
-    {
-        echo view('layouts/header');
-        echo view('layouts/navigation');
-        echo view('content');
-        echo view('layouts/footer');
-    }
-    public function tampil_view2()
-    {
-        $data = [
-            'title' => 'Data Mahasiswa',
-            'content' => 'Isi data mahasiswa'
-        ];
-        echo view('tampil_data', $data);
-    }
+    // public function tampil_view()
+    // {
+    //     echo view('layouts/header');
+    //     echo view('layouts/navigation');
+    //     echo view('content');
+    //     echo view('layouts/footer');
+    // }
+    // public function tampil_view2()
+    // {
+    //     $data = [
+    //         'title' => 'Data Mahasiswa',
+    //         'content' => 'Isi data mahasiswa'
+    //     ];
+    //     echo view('tampil_data', $data);
+    // }
 }
