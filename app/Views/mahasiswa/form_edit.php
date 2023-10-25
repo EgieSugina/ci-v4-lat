@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-6">
                     <label class="form-label">Nama</label> <input type="text" name="nama" class="form-control"
-                        value="<?= Smahasiswa['nama']; ?>">
+                        value="<?= $mahasiswa['nama']; ?>">
                 </div>
                 <div class="col-6">
                     <label class="form-label">Alamat</label> <input type="text" name="alamat" class="form-control"

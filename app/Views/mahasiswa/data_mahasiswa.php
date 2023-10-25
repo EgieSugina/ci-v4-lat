@@ -1,6 +1,6 @@
 <?php $this->extend('template/template'); ?>
 <?php $this->section('isi'); ?>
-<div class="container">
+<div class="container  mt-3">
     <div class="card mt-3">
         <div class="card-header">
             <b>
@@ -36,12 +36,11 @@
                             <?php echo $key['alamat']; ?>
                         </td>
                         <td>
-                            <?php echo $key['no hp']; ?>
+                            <?php echo $key['no_hp']; ?>
                         </td>
-                        <td><a href="/mahasiswa/edit/<?php echo
-                            $key['id']; ?>">Edit</a> [
-                            <a href="/mahasiswa/delete/<?php echo
-                                $key['id']; ?>">Hapus</a>
+                        <td>
+                            <a href="mahasiswa/edit/<?php echo $key['id']; ?>">Edit</a> |
+                            <a href="mahasiswa/delete/<?php echo $key['id']; ?>">Hapus</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>

@@ -6,7 +6,7 @@ use App\Models\MahasiswaModel;
 class Mahasiswa extends BaseController
 {
     protected $mahasiswamodel;
-    public function _construct()
+    public function __construct()
     {
         $this->mahasiswamodel = new MahasiswaModel();
     }
@@ -18,6 +18,13 @@ class Mahasiswa extends BaseController
             'mahasiswa' => $mahasiswa
         ];
         echo view('mahasiswa/data_mahasiswa', $data);
+    }
+    public function tambah()
+    {
+        $data = [
+            'title' => 'Tambah Data Mahasiswa',
+        ];
+        echo view('mahasiswa/form_tambah', $data);
     }
     public function simpan()
     {

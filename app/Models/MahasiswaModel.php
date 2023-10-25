@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class MahasiswaModel extends Model
 {
     protected $table = "tbl_mahasiswa";
-    protected $allowedFields = ['nim', 'nama', 'alamat', 'no hp'];
+    protected $allowedFields = ['nim', 'nama', 'alamat', 'no_hp'];
 
     public function data_mhs($id_mhs)
     {
