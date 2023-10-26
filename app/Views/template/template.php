@@ -43,7 +43,6 @@
     <script>
         function konfirmasiHapus(data, id) {
             if (confirm("Apakah Anda yakin ingin menghapus data ini?")) {
-                // Jika pengguna mengonfirmasi, maka akan diarahkan ke URL hapus
                 window.location.href = data + "/delete/" + id;
             }
         }
