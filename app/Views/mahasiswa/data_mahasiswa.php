@@ -40,8 +40,10 @@
                         </td>
                         <td>
                             <a href="mahasiswa/edit/<?php echo $key['id']; ?>">Edit</a> |
-                            <a href="mahasiswa/delete/<?php echo $key['id']; ?>">Hapus</a>
+                            <a href="javascript:void(0);"
+                                onclick="konfirmasiHapus('mahasiswa',<?php echo $key['id']; ?>)">Hapus</a>
                         </td>
+
                     </tr>
                 <?php endforeach; ?>
             </table>

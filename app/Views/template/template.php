@@ -11,6 +11,7 @@
 
 <body>
     <div class="notif-container "></div>
+
     <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
@@ -40,6 +41,12 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
     <script>
+        function konfirmasiHapus(data, id) {
+            if (confirm("Apakah Anda yakin ingin menghapus data ini?")) {
+                // Jika pengguna mengonfirmasi, maka akan diarahkan ke URL hapus
+                window.location.href = data + "/delete/" + id;
+            }
+        }
         $(document).ready(function () {
             var toastMessage = '<?= session()->getFlashdata('toast') ?>';
             if (toastMessage) {

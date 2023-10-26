@@ -40,7 +40,9 @@
                         </td>
                         <td>
                             <a href="matakuliah/edit/<?php echo $key['id_mk']; ?>">Edit</a> |
-                            <a href="matakuliah/delete/<?php echo $key['id_mk']; ?>">Hapus</a>
+                            <a href="javascript:void(0);"
+                                onclick="konfirmasiHapus('matakuliah',<?php echo $key['id_mk']; ?>)">Hapus</a>
+                            <!-- <a href="matakuliah/delete/<?php echo $key['id_mk']; ?>">Hapus</a> -->
                         </td>
                     </tr>
                 <?php endforeach; ?>
