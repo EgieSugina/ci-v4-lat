@@ -11,7 +11,7 @@
             <form class="row g-3" action="<?php echo
                 base_url('matakuliah/update') ?>" method="post">
                 <div class="col-6">
-                    <input type="hidden" name="id" value="<?= $matakuliah['id']; ?>">
+                    <input type="hidden" name="id_mk" value="<?= $matakuliah['id_mk']; ?>">
                     <label class="form-label">Kode Matakuliah</label>
                     <input type="text" name="kode_mk" class="form-control" value="<?= $matakuliah['kode_mk']; ?>">
                 </div>
@@ -28,6 +28,7 @@
                         value="<?= $matakuliah['ruangan']; ?>">
                 </div>
                 <div class="col-12">
+                    <a href="<?php echo base_url('matakuliah') ?>" type="submit" class="btn btn-secondary">Kembali</a>
                     <button type="submit" class="btn btn-primary">Update</button>
                 </div>
             </form>
