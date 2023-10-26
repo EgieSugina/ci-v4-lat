@@ -28,14 +28,24 @@ class Mahasiswa extends BaseController
     }
     public function simpan()
     {
-        $this->mahasiswamodel->save([
+        // Save the data
+        $saved = $this->mahasiswamodel->save([
             'nim' => $this->request->getVar('nim'),
             'nama' => $this->request->getVar('nama'),
             'alamat' => $this->request->getVar('alamat'),
-            'no hp' => $this->request->getVar('no_hp')
+            'no_hp' => $this->request->getVar('no_hp')
         ]);
+        if ($saved) {
+            $toastMessage = 'Data berhasil disimpan!';
+        } else {
+            $toastMessage = 'Gagal menyimpan data.';
+        }
+        $session = session();
+        $session->setFlashdata('toast', $toastMessage);
+
         return redirect()->to('mahasiswa');
     }
+
     public function edit($id_mhs)
     {
         $mahasiswa = $this->mahasiswamodel->data_mhs($id_mhs);
@@ -54,12 +64,26 @@ class Mahasiswa extends BaseController
             'alamat' => $this->request->getVar('alamat'),
             'no_hp' => $this->request->getVar('no_hp')
         ];
-        $this->mahasiswamodel->update_data($data, $id_mhs);
+        $update = $this->mahasiswamodel->update_data($data, $id_mhs);
+        if ($update) {
+            $toastMessage = 'Data berhasil di ganti dan disimpan!';
+        } else {
+            $toastMessage = 'Gagal merubah data.';
+        }
+        $session = session();
+        $session->setFlashdata('toast', $toastMessage);
         return redirect()->to('mahasiswa');
     }
     public function delete($id_mhs)
     {
-        $this->mahasiswamodel->delete_data($id_mhs);
+        $hapus = $this->mahasiswamodel->delete_data($id_mhs);
+        if ($hapus) {
+            $toastMessage = 'Data berhasil di hapus!';
+        } else {
+            $toastMessage = 'Gagal menghapus data.';
+        }
+        $session = session();
+        $session->setFlashdata('toast', $toastMessage);
         return redirect()->to('mahasiswa');
     }
 }

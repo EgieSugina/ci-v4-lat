@@ -24,7 +24,7 @@
                         value="<?= $mahasiswa['alamat']; ?>">
                 </div>
                 <div class="col-6">
-                    <label class="form-label">Handphone</label> <input type="text" name="no_hp" class="form-control"
+                    <label class="form-label">No Handphone</label> <input type="text" name="no_hp" class="form-control"
                         value="<?= $mahasiswa['no_hp']; ?>">
                 </div>
                 <div class="col-12">
