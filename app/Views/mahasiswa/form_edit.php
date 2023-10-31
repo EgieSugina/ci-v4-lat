@@ -28,7 +28,7 @@
                         value="<?= $mahasiswa['no_hp']; ?>">
                 </div>
                 <div class="col-12">
-                    <a href="<?php echo base_url('mahasiswa') ?>" type="submit" class="btn btn-secondary">Kembali</a>
+                    <a href="<?php echo base_url('mahasiswa') ?>" type="submit" class="btn btn-secondary">Batal</a>
                     <button type="submit" class="btn btn-primary">Update</button>
                 </div>
             </form>

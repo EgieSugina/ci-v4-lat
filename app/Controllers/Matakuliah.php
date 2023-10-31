@@ -66,7 +66,7 @@ class Matakuliah extends BaseController
         ];
         $update = $this->matakuliahmodel->update_data($data, $id_mk);
         if ($update) {
-            $toastMessage = 'Data berhasil di ganti dan disimpan!';
+            $toastMessage = 'Data berhasil di perbaharui!';
         } else {
             $toastMessage = 'Gagal merubah data.';
         }

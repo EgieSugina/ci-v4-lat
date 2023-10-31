@@ -28,7 +28,7 @@
                         value="<?= $matakuliah['ruangan']; ?>">
                 </div>
                 <div class="col-12">
-                    <a href="<?php echo base_url('matakuliah') ?>" type="submit" class="btn btn-secondary">Kembali</a>
+                    <a href="<?php echo base_url('matakuliah') ?>" type="submit" class="btn btn-secondary">Batal</a>
                     <button type="submit" class="btn btn-primary">Update</button>
                 </div>
             </form>

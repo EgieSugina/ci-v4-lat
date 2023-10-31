@@ -66,7 +66,7 @@ class Mahasiswa extends BaseController
         ];
         $update = $this->mahasiswamodel->update_data($data, $id_mhs);
         if ($update) {
-            $toastMessage = 'Data berhasil di ganti dan disimpan!';
+            $toastMessage = 'Data berhasil di perbaharui!';
         } else {
             $toastMessage = 'Gagal merubah data.';
         }

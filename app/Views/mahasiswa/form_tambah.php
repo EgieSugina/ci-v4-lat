@@ -24,7 +24,7 @@
                     <label class="form-label">No Handphone</label> <input type="text" name="no_hp" class="form-control">
                 </div>
                 <div class="col-12">
-                    <a href="<?php echo base_url('mahasiswa') ?>" type="submit" class="btn btn-secondary">Kembali</a>
+                    <a href="<?php echo base_url('mahasiswa') ?>" type="submit" class="btn btn-secondary">Batal</a>
                     <button type="submit" class="btn btn-primary">Simpan</button>
                 </div>
             </form>
